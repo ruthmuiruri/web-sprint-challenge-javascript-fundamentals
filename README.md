@@ -25,14 +25,30 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+.map method loops in existing arrays and performs functions within those arrays.
+
+.reduce reduces values in existing arrays into one single value.
+
+.filter creates arrays of elements in existing arrays. It evaluates callback functions on each item within the existing arrays. If items meets the conditions of callback functions, it will be added to the existing list. 
 
 2. Explain the difference between a callback and a higher order function.
 
+
 3. Explain what a closure is.
+
+closures give programers access to outer functions scopes from inner functions.
+
 
 4. Describe the four principles of the 'this' keyword.
 
+A.  new keywords
+B. apply/call/bind
+C. function as a method
+D. a global scope 
+
 5. Why do we need super() in an extended class?
+
+super keyword is used to access and call functions on the object's parent.
 
 You are expected to be able to answer questions in these areas. Your responses contribute to your Sprint Challenge grade. 
 
